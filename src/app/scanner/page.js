@@ -16,7 +16,7 @@ const ScannerPage = () => {
       try {
         const url = new URL(result); // Intentamos crear un objeto URL con el resultado
         // Si es una URL válida, redirigir
-        window.location.assign(url); // Usamos assign para hacer la redirección
+        window.location.href = url.toString(); // Usamos href para redirigir
       } catch (e) {
         // Si no es una URL válida, mostrar un mensaje de error
         setError("El contenido del código QR no es una URL válida.");
