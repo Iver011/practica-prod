@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #aab7b8;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.main span{
+    color: var(--menuHover);
+    text-transform: uppercase;
+    padding: 30px;
+    font-weight: 500;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+ 
+}
+.qr{
+    padding: 20px;
+    grid-column: 2;
+}
+.qr span{
+    font-weight: 500;
+    
+}

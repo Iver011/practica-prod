@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.main h2{
+    color: var(--textSoft);
+}
+.form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    color: var(--text);
+}
+.input{
+    padding: 10px;
+    outline: none;
+    text-align: left;
+    border-radius: 10px;
+    background-color: var(--textAlt);
+    border: none;
+    color: var(--text);
+    width: 100vh;
+}
+.extras{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.extras input{
+    width: 100%;
+}
+.btn{
+    
+    margin-top: 10px;
+    padding: 10px 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: var(--textAlt);
+    cursor: pointer;
+    background-color: #d5d8dc;
+}

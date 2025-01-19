@@ -1,0 +1,69 @@
+.top{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--textSoft);
+}
+.input{
+    background-color: transparent;
+    color: var(--textSoft);
+    border:none;
+    outline: none;
+    
+}
+.search{
+    padding: 10px;
+    border: 1px solid var(--text);
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    width:max-content;
+    align-items: center;
+}
+.filter{
+    padding: 10px;
+    
+    
+}
+.table{
+    width: 100%;
+    padding: 10px;
+    color: var(--text);
+    margin-left: 10px;
+}
+.container{
+    background-color: var(--menuSoft);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.table td{
+    padding: 20px;
+}
+.add{
+    padding: 10px 30px;
+    background-color: transparent;
+    color: var(--textSoft);
+    border: 1px solid var(--text);
+    border-radius: 10px;
+}
+.add:hover{
+    background-color: #85929e;
+    color: var(--textAlt);
+    border: none;
+    cursor: pointer;
+}
+.options{
+    display: flex;
+    gap:50px
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
