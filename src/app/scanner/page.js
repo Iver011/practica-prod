@@ -15,7 +15,6 @@ const ScannerPage = () => {
       // Verificar si el resultado es una URL válida
       try {
         const url = new URL(result); // Intentamos crear un objeto URL con el resultado
-        // Si es una URL válida, redirigir
         window.location.href = url.toString(); // Usamos href para redirigir
       } catch (e) {
         // Si no es una URL válida, mostrar un mensaje de error

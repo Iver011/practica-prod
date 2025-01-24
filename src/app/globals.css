@@ -13,6 +13,7 @@
   --textSoft:#b7bac1;
   --menu2: #5d6d7e;
   --textAlt:#1c2833;
+  --login:#1C1D21;
 }
 body{
   background-color: var(--menu); 

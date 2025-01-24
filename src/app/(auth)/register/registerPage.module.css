@@ -1,0 +1,70 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 100px;
+    background-color: var(--menuHover);
+}
+.title{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--textSoft);
+    text-align: center;
+}
+.right{
+    background-color: var(--textAlt);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 40px;
+    gap: 10px;
+    color: var(--textSoft);
+    width: 50%;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--text);
+    color: var(--text);
+    font-size: 12px;
+}
+.right p{
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 100;
+}
+.register{
+    color: var(--textSoft);
+    font-size: 25px;
+    font-weight: 400;
+}
+.label{
+    font-size: 12px;
+}
+.btn{
+    margin-top: 10px;
+    padding: 15px 20px 15px 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--textSoft);
+    cursor: pointer;
+}

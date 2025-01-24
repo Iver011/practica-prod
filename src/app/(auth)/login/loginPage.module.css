@@ -1,0 +1,104 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: var(--text);
+    background-color: var(--login);
+}
+.register{
+    display: flex;
+    gap: 30px;
+}
+.register p{
+    font-size: 12px;
+    color: var(--textSoft);
+}
+.reg:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.title h3{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:center;
+    padding: 20px;
+    gap: 20px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+    background-image: url("/fondo2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--textSoft);
+}
+.right h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 450;
+    margin-top: 100px;
+}
+.input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffff;
+    outline: none;
+    color:var(--text);
+    padding: 10px;
+    font-weight: 100;
+    width: 100%;
+    
+}
+.iconmain{
+    font-size: 30px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+.text{
+    font-size: 12px;
+    font-weight: 100;
+}
+.password{
+    
+    display: flex;
+    
+}
+.icon{
+    margin: 10px;
+    cursor: pointer;
+}
+.btn{
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    background-color:#a9bbbd;
+    color: var(--textAlt);
+}
+.forgot{
+    font-size: 12px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
