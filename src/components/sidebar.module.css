@@ -57,3 +57,24 @@
 .active {
     background-color: var(--menuHover);
   }
+
+@media(max-width:768px){
+
+    .main {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100vh;
+        background-color: var(--sidebarBackground);
+        transform: translateX(-100%);
+    }
+
+    .main.active {
+        transform: translateX(0);
+    }
+
+    .hamburger {
+        display: block;
+    }
+}

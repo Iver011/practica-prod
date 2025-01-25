@@ -102,3 +102,75 @@
 .forgot:hover{
     text-decoration: underline;
 }
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr; 
+        height: 100vh;
+    }
+
+    .left {
+        padding: 20px;
+        height: 100%
+    }
+
+    .right {
+        display: none; /* Oculta la sección derecha */
+    }
+
+    .form {
+        gap: 15px;
+    }
+
+    .title h3 {
+        font-size: 28px;
+    }
+
+    .input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main {
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+
+    .left {
+        padding: 30px;
+        height: auto;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .form {
+        gap: 20px;
+    }
+
+    .title h3 {
+        font-size: 30px;
+    }
+
+    
+}
+
+
+@media (min-width: 1025px) {
+    .main {
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .right {
+        display: flex; 
+    }
+
+    .form {
+        gap: 25px;
+    }
+
+    
+}
