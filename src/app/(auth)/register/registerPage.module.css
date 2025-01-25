@@ -76,16 +76,19 @@
     }
 
     .left {
-        padding: 20px;
-        height: 100%
+        display: none;
+        
     }
 
     .right {
-        display: none; /* Oculta la sección derecha */
+        padding: 20px;
+        height: 100%;
+         /* Oculta la sección derecha */
     }
 
     .form {
         gap: 15px;
+        width: 75%;
     }
 
     .title h3 {
