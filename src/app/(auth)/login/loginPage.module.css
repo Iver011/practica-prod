@@ -122,11 +122,11 @@
     }
 
     .title h3 {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .input {
-        font-size: 14px;
+        font-size: 12px;
         padding: 8px;
     }
 
@@ -151,9 +151,7 @@
         gap: 20px;
     }
 
-    .title h3 {
-        font-size: 30px;
-    }
+    
 
     
 }
@@ -168,9 +166,7 @@
         display: flex; 
     }
 
-    .form {
-        gap: 25px;
-    }
+    
 
     
 }
