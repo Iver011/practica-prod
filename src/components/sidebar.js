@@ -66,7 +66,7 @@ const menuItems=[
     return(
         <div className={styles.main}>
             <div className={styles.user}>
-                <Image src={"./next.svg"} alt="" width="50" height="50"></Image>
+                <Image src={"/next.svg"} alt="" width="50" height="50"></Image>
                 <div className={styles.info}>
                 <h4>Iver Mamani Cordero</h4>
                 <h5 className={styles.rol}>Administrador</h5>
