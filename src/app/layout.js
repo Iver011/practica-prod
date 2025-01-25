@@ -24,7 +24,9 @@ export const generateViewport = () => ({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
+<head>
+  <link href="./public/manifest.json"></link>
+</head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <div className="layout">
           <div className="container">
