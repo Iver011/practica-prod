@@ -69,3 +69,33 @@
     background-color: var(--textSoft);
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr; 
+        height: 100vh;
+    }
+
+    .left {
+        padding: 20px;
+        height: 100%
+    }
+
+    .right {
+        display: none; /* Oculta la sección derecha */
+    }
+
+    .form {
+        gap: 15px;
+    }
+
+    .title h3 {
+        font-size: 25px;
+    }
+
+    .input {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    
+}
