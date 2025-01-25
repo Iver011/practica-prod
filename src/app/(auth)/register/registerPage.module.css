@@ -86,6 +86,8 @@
 
     .form {
         gap: 15px;
+        width: 75%;
+
     }
 
     .title h3 {
