@@ -47,3 +47,21 @@
     cursor: pointer;
     background-color: #d5d8dc;
 }
+@media (max-width:768px){
+    .main{
+        width: 100%;
+        font-size: 12px;
+        height: 100%;
+    }
+    .campo{
+        padding: 5px;
+        gap: 5px;
+    }
+    .input{
+        width: 100%;
+        padding: 5px 15px;
+    }
+    .btn{
+        
+    }
+}

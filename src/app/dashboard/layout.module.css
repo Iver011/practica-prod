@@ -1,16 +1,45 @@
-.menu{
-    flex: 1;
-    padding: 20px;
-    min-height: 100vh;
-    background-color: var(--menuSoft);
-}
-.container{
+.container {
     display: flex;
     
-    
-
 }
-.content{
+
+.menu {
+    flex: 1;
+    padding: 20px;
+    height: 100vh;
+    background-color: var(--menuSoft);
+    display: block; 
+    transition: transform 0.3s ease;
+}
+
+.menu.active {
+    display: block;
+    position: fixed;
+    z-index: 1000; /* Mostrar cuando se active */
+}
+
+.content {
     flex: 4;
     padding: 20px;
+}
+@media (max-width:768px){
+    .menu{
+        
+        display: none;
+        min-height: 100%;
+        background-color: white;
+        padding: 20px;
+        height: 100vh;
+        margin-bottom: 0;
+        
+    }
+    .menu.active{
+        transform: translateY(120px);
+        
+        
+    }
+    
+    .container{
+        height: 100vh;
+    }   
 }

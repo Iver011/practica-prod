@@ -48,3 +48,19 @@
   .complete{
     background-color: #f7737375;
   }
+  
+  @media (max-width:768px){
+    .container{
+      font-size: 12px;
+    }
+    .title{
+      font-size: 12px;
+    }
+    .status{
+      font-size: 8px;
+      padding: 2.75px;
+    }
+    .container table{
+      font-size: 12px;
+    }
+  }

@@ -18,3 +18,28 @@
 body{
   background-color: var(--menu); 
 }
+
+
+
+@media (max-width:780px){
+  
+  .layout {
+    display: flex;
+    justify-content: center;  /* Centra el contenido horizontalmente */
+    align-items: center;      /* Centra el contenido verticalmente */
+    height: 100vh;            /* Ocupa toda la altura de la pantalla */
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;         /* Ancho máximo para móviles */
+    height: 100%;
+    overflow-x: hidden;           /* Si el contenido es largo, permite desplazamiento */
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-y: hidden;
+   }
+}

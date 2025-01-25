@@ -19,13 +19,6 @@ const Transactions = () => {
           <tr>
             <td>
               <div className={styles.user}>
-                <Image
-                  src="/noavatar.png"
-                  alt=""
-                  width={40}
-                  height={40}
-                  className={styles.userImage}
-                />
                 Erick Picavia
               </div>
             </td>
@@ -40,13 +33,7 @@ const Transactions = () => {
           <tr>
             <td>
               <div className={styles.user}>
-                <Image
-                  src="/noavatar.png"
-                  alt=""
-                  width={40}
-                  height={40}
-                  className={styles.userImage}
-                />
+                
                 Carlos Sanchez
               </div>
             </td>
@@ -59,13 +46,7 @@ const Transactions = () => {
           <tr>
             <td>
               <div className={styles.user}>
-                <Image
-                  src="/noavatar.png"
-                  alt=""
-                  width={40}
-                  height={40}
-                  className={styles.userImage}
-                />
+                
                 Juan Perez
               </div>
             </td>
@@ -80,13 +61,7 @@ const Transactions = () => {
           <tr>
             <td>
               <div className={styles.user}>
-                <Image
-                  src="/noavatar.png"
-                  alt=""
-                  width={40}
-                  height={40}
-                  className={styles.userImage}
-                />
+               
                 Jhonatan Chacolla
               </div>
             </td>

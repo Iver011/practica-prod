@@ -67,3 +67,35 @@
     text-decoration: none;
     color: inherit;
 }
+@media (max-width:768px){
+ /* globals.css */
+.container {
+    width: 100%;
+    max-width: 480px; /* Tamaño típico para móviles */
+    margin: 0 auto; /* Centra el contenido */
+    padding: 0; /* Espaciado interno */
+    box-sizing: border-box; /* Asegura que padding no desborde */
+  }
+   .top{
+    font-size: 10px;
+    padding: 5px;
+    gap: 5px;
+   }  
+   .table{
+    font-size: 10px;
+    table-layout: fixed;
+   }
+   .table td{
+    font-size: 8px;
+   }
+   .input{
+    gap: 5px;
+   }
+   .add{
+    gap :5px;
+    font-size: 5px;
+   }
+   .options{
+    gap: 0px;
+   }
+}

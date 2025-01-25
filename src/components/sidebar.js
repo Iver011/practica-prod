@@ -1,7 +1,7 @@
 'use client'
 import MenuLink from "./menuLink";
 import styles from "./sidebar.module.css"
-import {FaRegUser,FaRegNewspaper,FaCar,FaRegBookmark,FaRegFilePdf,FaRegSun,FaQuestionCircle  } from "react-icons/fa";
+import {FaRegUser,FaRegNewspaper,FaCar,FaRegBookmark,FaRegFilePdf,FaRegSun,FaQuestionCircle,FaBars  } from "react-icons/fa";
 import { CiLogout } from "react-icons/ci";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

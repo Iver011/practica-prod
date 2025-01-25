@@ -1,20 +1,31 @@
+'use client'
 import Sidebar from "@/components/sidebar";
-import styles from "./layout.module.css"
+import styles from "./layout.module.css";
 import NavBar from "@/components/navbar";
-const Layout=({children})=>{
+import { useState } from "react";
 
+const Layout = ({ children }) => {
+    const [showSidebar, setShowSidebar] = useState(false);
 
-return (
-    <div className={styles.container}>
-        <div className={styles.menu}>
-        <Sidebar></Sidebar>
-    </div>
-    
-    <div className={styles.content}>
-        <NavBar></NavBar>{children}</div>
-    </div>
-    
-);
+    const toggleSidebar = () => {
+        setShowSidebar(!showSidebar);
+    };
 
-}
-export default Layout
+    return (
+        <div className={styles.container}>
+            {/* Sidebar con visibilidad dinámica */}
+            <div className={`${styles.menu} ${showSidebar ? styles.active : ""}`}>
+                <Sidebar  className={styles.bar}/>
+            </div>
+
+            {/* Contenido principal */}
+            <div className={styles.content}>
+                {/* Pasamos toggleSidebar como prop */}
+                <NavBar toggleSidebar={toggleSidebar} />
+                {children}
+            </div>
+        </div>
+    );
+};
+
+export default Layout;

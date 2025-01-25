@@ -22,3 +22,13 @@
     gap: 20px;
 
 }
+@media (max-width:768px){
+    .main{
+      width: 100%;
+      max-width: 480px; /* Tamaño típico para móviles */
+      margin: 0 auto; /* Centra el contenido */
+      padding: 1rem; /* Espaciado interno */
+      box-sizing: border-box; /* Asegura que padding no desborde */
+    }
+    
+}
